@@ -1,16 +1,16 @@
 // app/api/cart/[id]/quantity/route.ts
+
 import { NextRequest, NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 export async function PATCH(
-  req: Request,
-  { params }: { params: { id: string } }
+  req: NextRequest,
+  context: { params: { id: string } }
 ) {
   const { quantity } = await req.json();
-
-  const cartId = parseInt(params.id);
+  const cartId = parseInt(context.params.id);
 
   if (!quantity || quantity < 1) {
     return NextResponse.json({ error: "Invalid quantity" }, { status: 400 });
