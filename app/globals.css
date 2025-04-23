@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #030208;
+    --foreground: #ededed;
+  }
+}
+
+/* @font-face {
+  font-family: Bld;
+  src: url("../app/font/Bld.ttf");
+}
+@font-face {
+  font-family: LexBlck;
+  src: url("../app/font/LexBlck.ttf");
+}
+@font-face {
+  font-family: LexExtraBld;
+  src: url("../app/font/LexExtraBld.ttf");
+}
+@font-face {
+  font-family: LexMed;
+  src: url("../app/font/LexMed.ttf");
+}
+@font-face {
+  font-family: LexReg;
+  src: url("../app/font/LexReg.ttf");
+} */
+/* 
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ProseMirror {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  margin: 0 4px;
+  padding: 6px 12px;
+  background-color: #bdbdbd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.tiptap {
+
+  ul,
+  ol {
+    padding: 0 1rem;
+    color: #f62727;
+  }
+
+  ul li p,
+  ol li p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    color: #ededed;
+  }
+} */
+
+/* .tiptap p.is-editor-empty:first-child::before {
+  color: #adb5bd;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.tiptap p.is-empty::before {
+  color: #adb5bd;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.tiptap {
+  height: 100%;
+} */
+
+/* Heading styles */
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  margin-top: 2.5rem;
+  text-wrap: pretty;
+}
+
+h1,
+h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #171717;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: #171717;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #171717;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+} */
